@@ -1,7 +1,6 @@
 library(dplyr)
 library(readxl)
 library(stringr)
-library(ggplot2)
 
 Drone_Controller_Questionnaire <- read_excel("Rstudio_File/drone_survey/Drone-Controller-Questionnaire.xlsx", range = "D1:AG12")
 
